@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9F3B04F27B3A97400F8F59D /* AppConfigOverride.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B9F3B04E27B3A97400F8F59D /* AppConfigOverride.xcconfig */; };
 		E201769127AAB96000E6A756 /* AppleHealthExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201769027AAB96000E6A756 /* AppleHealthExport.swift */; };
 		E20786232686283F004EEF1C /* ActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20786222686283F004EEF1C /* ActionsView.swift */; };
 		E20B853E266F4A9800AA4224 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20B853D266F4A9800AA4224 /* App.swift */; };
@@ -130,6 +131,7 @@
 /* Begin PBXFileReference section */
 		1938BB6F2752F8D10047059C /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1938BB702752F8D20047059C /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9F3B04E27B3A97400F8F59D /* AppConfigOverride.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = AppConfigOverride.xcconfig; sourceTree = SOURCE_ROOT; };
 		E201769027AAB96000E6A756 /* AppleHealthExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleHealthExport.swift; sourceTree = "<group>"; };
 		E20786222686283F004EEF1C /* ActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsView.swift; sourceTree = "<group>"; };
 		E20B853A266F4A9800AA4224 /* LibreDirect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibreDirect.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -295,6 +297,7 @@
 		E20B853C266F4A9800AA4224 /* LibreDirect */ = {
 			isa = PBXGroup;
 			children = (
+				B9F3B04E27B3A97400F8F59D /* AppConfigOverride.xcconfig */,
 				E247D8E426B7D70A00BDAF89 /* App.xcconfig */,
 				E20B853D266F4A9800AA4224 /* App.swift */,
 				E2FCAC6E2707438A00FE1CBF /* AppConfig.swift */,
@@ -702,6 +705,7 @@
 				E257088E278354B600896696 /* mute.aiff in Resources */,
 				E2A699482787720700409F33 /* positive.aiff in Resources */,
 				E24077B326B881C2001767C0 /* InfoPlist.strings in Resources */,
+				B9F3B04F27B3A97400F8F59D /* AppConfigOverride.xcconfig in Resources */,
 				E2A6993E278760A300409F33 /* coin-chime.aiff in Resources */,
 				E2FCAC87270743E200FE1CBF /* Localizable.strings in Resources */,
 				E2A6993D278760A300409F33 /* low-battery.aiff in Resources */,
